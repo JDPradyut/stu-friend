@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF1CC9A6</color>
+    <color name="colorPrimaryDark">#FF1C89A6</color>
+    <color name="colorAccent">#FF1CC9A6</color>
+
+    <color name="lightWhite">#FFFEFE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#0A0A0A</color>
+    <color name="brown">#BB3615</color>
+    <color name="gray">#5A5858</color>
+    <color name="lightGrey">#F1EEEE</color>
+    <color name="tvbglight">#B101CF8E</color>
+    <color name="tvbgdark">#C81CC9A6</color>
+</resources>

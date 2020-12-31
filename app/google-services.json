@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "818367104897",
+    "firebase_url": "https://stufriend-1f45a.firebaseio.com",
+    "project_id": "stufriend-1f45a",
+    "storage_bucket": "stufriend-1f45a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818367104897:android:fc43cc5dfbcb9b00de4a80",
+        "android_client_info": {
+          "package_name": "com.world.jd.stufriend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818367104897-5458ct1479vs68k5ljbsd1nhu930h2gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjb0PtCsi_d8vxfaOQFryk0P586aegmd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818367104897-5458ct1479vs68k5ljbsd1nhu930h2gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818367104897:android:053ba3f7f81b4b68de4a80",
+        "android_client_info": {
+          "package_name": "com.world.jd.ur_friend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818367104897-5458ct1479vs68k5ljbsd1nhu930h2gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjb0PtCsi_d8vxfaOQFryk0P586aegmd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818367104897-5458ct1479vs68k5ljbsd1nhu930h2gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

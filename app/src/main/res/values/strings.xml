@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">StuFriend</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Titles-->
+    <string name="first_slide_title">Welcome</string>
+    <string name="second_slide_title">Find Jobs and Internships</string>
+    <string name="third_slide_title">Previous Years Questions</string>
+    <string name="fourth_slide_title">Make Yourself Ready</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">Welcome to StuFriend and Thanks for Testing Our Beta Application.More Features will be added Soon.Stay Tune.</string>
+    <string name="second_slide_desc">In this Application You can find Your Suitable Jobs and Internships of your Dream Companies. </string>
+    <string name="third_slide_desc">You can find Previous Years Questions and Interview Questions of the Top Companies.</string>
+    <string name="fourth_slide_desc">Here we also include Coding Problems and many Courses which will help you to grow up your skills.  </string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <string name="notes">NOTE - This App is now in Beta Condition.More Features will be added Soon.</string>
+
+
+    <string name="app_update_default_title">App Update</string>
+    <string name="app_update_default_description">Looks like you have an older\nversion of the app.\nPlease update to get latest\nfeatures and best experience.</string>
+    <string name="app_update_positive_text">UPDATE NOW</string>
+</resources>

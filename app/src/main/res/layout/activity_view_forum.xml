@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".ViewForum">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/frmprf"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:id="@+id/defprof1"
+        android:layout_below="@+id/textView4"/>
+
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_toRightOf="@id/defprof1"
+        android:text="Title"
+        android:textColor="?attr/textcolor"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:background="?attr/cardbackground"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:textColor="?attr/textcolor"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Forum"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cmtbox"
+        android:layout_below="@id/defprof1"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/list_desc"
+                android:layout_width="match_parent"
+                android:textColor="?attr/textcolor"
+                android:layout_height="wrap_content"
+                android:text="Description"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comments :"
+                android:textColor="?attr/textcolor"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:id="@+id/forumlist"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/cmtbox"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/frmprf"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:id="@+id/defprof"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:background="@drawable/edittextt"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@id/defprof"
+            android:hint="Comment Here..."
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_toLeftOf="@+id/postF"
+            android:id="@+id/getPost"/>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/spc"/>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/spc1"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:id="@+id/postF"
+            android:layout_toLeftOf="@id/spc1"
+            android:layout_below="@+id/spc"
+            android:text="Comment"
+            android:textColor="@color/lightWhite"/>
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

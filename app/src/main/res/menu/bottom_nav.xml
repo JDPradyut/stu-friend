@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bhome"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/bforum"
+        android:icon="@drawable/disfrm"
+        android:title="Forum"/>
+    <item
+        android:id="@+id/bjobs"
+        android:icon="@drawable/jobseek"
+        android:title="Jobs"/>
+    <item
+        android:id="@+id/binterns"
+        android:icon="@drawable/internshipicon"
+        android:title="Interns"/>
+
+</menu>

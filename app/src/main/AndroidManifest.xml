@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.world.jd.stufriend">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ViewForum"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".ViewNews"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".AddNews" android:theme="@style/AppTheme"
+            />
+        <activity
+            android:name=".Theme"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AppUpdateDialog"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".About"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".FeedBack"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".AQ.ViewQues"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Course.ViewCourse"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".SplashScreen"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OnBoarding"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Profile"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Login"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IQ.ViewIQues"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".Settings"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".FI.FIItems"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".FI.FIList"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".FI.AddIntern"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".FJ.FJList" android:theme="@style/AppTheme"/>
+        <activity android:name=".FJ.FJItems" android:theme="@style/AppTheme"/>
+        <activity android:name=".FJ.AddJobs" android:theme="@style/AppTheme"/>
+        <activity android:name=".WebBrowser" />
+        <activity android:name=".IQ.DS.DSItems" android:theme="@style/AppTheme"/>
+        <activity android:name=".IQ.DS.DSList" android:theme="@style/AppTheme"/>
+        <activity android:name=".AQ.TCS.TCSQuesItems" android:theme="@style/AppTheme"/>
+        <activity android:name=".AQ.TCS.TCSQuesList" android:theme="@style/AppTheme"/>
+        <activity android:name=".CP.CProbItems" android:theme="@style/AppTheme"/>
+        <activity android:name=".CP.CProbList" android:theme="@style/AppTheme"/>
+        <activity android:name=".IQ.DS.AddDS" android:theme="@style/AppTheme"/>
+        <activity android:name=".AQ.TCS.AddTCSQues" android:theme="@style/AppTheme"/>
+        <activity android:name=".CP.Add_Cprob" android:theme="@style/AppTheme"/>
+        <activity android:name=".IQ.Add_Iques" android:theme="@style/AppTheme"/>
+        <activity android:name=".AQ.AddQues" android:theme="@style/AppTheme"/>
+        <activity android:name=".HomeScreen.UserHome" android:theme="@style/AppTheme" />
+        <activity android:name=".HomeScreen.AdminHome" android:theme="@style/AppTheme"/>
+        <activity android:name=".HomeScreen.MyHome"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewItems"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".ViewList" android:theme="@style/AppTheme" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

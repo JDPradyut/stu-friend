@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/frmprf"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:id="@+id/defprof"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/edittextt"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/defprof"
+        android:hint="Write Something Here..."
+        android:layout_toLeftOf="@+id/postF"
+        android:id="@+id/getPost"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/spc"/>
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/spc1"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:id="@+id/postF"
+        android:layout_toLeftOf="@id/spc1"
+        android:layout_below="@+id/spc"
+        android:text="Post"
+        android:textColor="@color/lightWhite"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/getPost"
+        android:paddingTop="20dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/forumlist"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</RelativeLayout>

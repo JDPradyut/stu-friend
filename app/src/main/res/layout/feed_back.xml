@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    tools:context=".FeedBack">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/cardbackground"
+        android:textColor="?attr/textcolor"
+        android:fontFamily="@font/baloo"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="FeedBack"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/descFeed"
+            android:layout_height="match_parent"
+            android:textColor="?attr/textcolor"
+            android:text="Title"
+            android:textSize="18dp"
+            android:paddingTop="20dp"/>
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:background="?attr/cardbackground"
+            android:textColor="?attr/textcolor"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:id="@+id/titlefeed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="?attr/textcolor"
+            android:text="Description"
+            android:textSize="18dp"
+            android:paddingTop="10dp"/>
+        <EditText
+            android:id="@+id/etd"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="8dp"
+            android:layout_gravity="left"
+            android:hint="Write"
+            android:background="?attr/cardbackground"
+            android:textColor="?attr/textcolor"
+            android:paddingTop="10dp"/>
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="@color/lightWhite"
+            android:text="send"
+            android:background="@drawable/button"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
